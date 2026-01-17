@@ -1,0 +1,85 @@
+/* General layout */
+.container {
+  margin-top: 2rem;
+}
+
+/* Navigation */
+nav strong {
+  font-size: 1.2rem;
+}
+
+nav button {
+  background-color: var(--primary);
+}
+
+/* Card styling */
+article {
+  margin-bottom: 2rem;
+}
+
+/* Status badges */
+.status {
+  padding: 0.35rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.status.active {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.status.lost {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.status.broken {
+  background-color: #7f8c8d;
+  color: white;
+}
+
+/* Table */
+table {
+  margin-top: 1.5rem;
+}
+
+table td,
+table th {
+  vertical-align: middle;
+}
+
+/* Action buttons */
+.actions {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.actions button {
+  padding: 0.4rem 0.7rem;
+  font-size: 0.8rem;
+}
+
+.btn-delete {
+  background-color: #e74c3c;
+  border: none;
+}
+
+.btn-edit {
+  background-color: #f1c40f;
+  color: black;
+  border: none;
+}
+
+.btn-history {
+  background-color: #1abc9c;
+  border: none;
+}
+
+/* Form grid spacing */
+.grid input,
+.grid select {
+  margin-bottom: 0;
+}
